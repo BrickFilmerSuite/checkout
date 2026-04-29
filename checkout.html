@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script async defer src="https://js.whop.com/static/checkout/loader.js"></script>
+    <title>BrickFilmer Suite — Checkout</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: #0f0f0f;
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      h1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 8px;
+        text-align: center;
+      }
+      p {
+        color: #aaa;
+        font-size: 0.95rem;
+        margin-bottom: 32px;
+        text-align: center;
+      }
+      .checkout-wrap {
+        width: 100%;
+        max-width: 480px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BrickFilmer Suite</h1>
+    <p>Join the membership — $15/month</p>
+    <div class="checkout-wrap">
+      <div
+        data-whop-checkout-plan-id="plan_VpHwONTXCdzsm"
+        data-whop-checkout-hide-address="true"
+        data-whop-checkout-skip-redirect="true"
+      ></div>
+    </div>
+  </body>
+</html>
